@@ -1,0 +1,25 @@
+
+Post api:
+localhost:9999/employee/addemployee
+{
+	"empName":"karthick",
+	"department": {
+		"departName":"Lead"
+	}
+}
+
+Update api:
+localhost:9999/employee/updateemployee
+{
+	"id":"2fc6303b-5368-4d3a-afff-4f852277eb7e",
+	"empName":"karthick",
+	"department": {
+		"departName":"Lead"
+	}
+}
+
+Get api:
+localhost:9999/employee/getemployee?empId=2fc6303b-5368-4d3a-afff-4f852277eb7e
+
+Delete api:
+localhost:9999/employee/deleteemployee?empId=2fc6303b-5368-4d3a-afff-4f852277eb7e
